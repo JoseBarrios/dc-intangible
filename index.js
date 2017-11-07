@@ -1,4 +1,4 @@
-const Thing = require('@josebarrios/thing');
+const Thing = require('@josebarrios/dc-thing');
 
 class Intangible extends Thing{
 

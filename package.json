@@ -1,6 +1,6 @@
 {
-  "name": "@josebarrios/intangible",
-  "version": "0.1.1",
+  "name": "@josebarrios/dc-intangible",
+  "version": "1.0.0-beta",
   "description": "A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JoseBarrios/intangible.git"
+    "url": "git+https://github.com/JoseBarrios/dc-intangible.git"
   },
   "keywords": [
     "Intangible",
@@ -17,13 +17,13 @@
   "author": "JoseBarrios",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/JoseBarrios/intangible/issues"
+    "url": "https://github.com/JoseBarrios/dc-intangible/issues"
   },
-  "homepage": "https://github.com/JoseBarrios/intangible#readme",
+  "homepage": "https://github.com/JoseBarrios/dc-intangible#readme",
   "devDependencies": {
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "@josebarrios/thing": "^0.3.19"
+    "@josebarrios/dc-thing": "^1.0.0-beta"
   }
 }
