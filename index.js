@@ -1,11 +1,15 @@
-const Thing = require('@josebarrios/dc-thing');
+const ThingViewController = require('dc-thing');
+const TYPE = 'IntangibleViewController';
 
-class Intangible extends Thing{
+class IntangibleViewController extends ThingViewController{
 
-  constructor(model){
-    model = model || {};
-    super(model)
-  }
+	static get type(){ return TYPE; }
+
+	constructor(model){
+		model = model || {};
+		super(model)
+	}
+
 }
 
-module.exports = Intangible;
+module.exports = IntangibleViewController;
